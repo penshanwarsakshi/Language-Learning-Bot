@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Language Learning Bot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="chat-container">
+    <div class="chat-header">🌍 Language Learning Bot</div>
+
+    <div class="messages" id="messages">
+      <div class="message bot">
+        Hello! 👋 I'm your Language Learning Bot.  
+        <br>Ask for vocabulary, grammar tips, or translations.
+        <br>Example: <b>English to Hindi</b>
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="e.g. English to Hindi" />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
